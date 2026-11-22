@@ -4,7 +4,7 @@ from io import BytesIO
 from pathlib import Path
 from openpyxl import load_workbook
 
-DIAS = ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado', 'Domingo']
+DIAS = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo']
 CAMPOS_PLAN = ['dia', 'hora_inicio', 'hora_fin', 'tiempo_comida', 'menu', 'receta_id']
 CAMPOS_RECETAS = ['receta_id', 'nombre', 'ingredientes_cantidades', 'preparacion',
                   'video_url', 'estado', 'fuente_preparacion']
